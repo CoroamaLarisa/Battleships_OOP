@@ -1,7 +1,10 @@
 # OOP Game-Coroama Larisa
 
-Jocul este Battleships implementat de mine pentru laborator de OOP in limbajul C++ si am folosit Qt
 
-Un mic detaliu, eu am pus doom.mp3 ca muzica si BATTLESHIP.jpg ca poza, daca nu aveti asta in calculator nu o sa ruleze programul. 
+Battleships game implemented by myself for the Oriented Object Programming course at college.
+The game is written in C++ and uses the Qt library. You can either play with someone else(1V1) or with the computer.
+The computer tries to beat you by using an algorithm in which if it hits you, it hits every other block in vicinity until it hits either a boat or any other piece and then moves to that block. If it doesn't succeed in hitting a piece, it picks a random block in the matrix that hasn't been hit yet and the algorithm restarts. 
 
-Daca doriti sa rulati acest program trebuie sa schimbati url-urile pt poza si muzica sau sa stergeti codul aferent. 
+
+If you wish to run this code, you need to change the images and the audio track.
+
